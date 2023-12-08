@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; 
+}
+
+.container {
+  display: flex;
+ 
+}
+
+.sidebar {
+  background-color: #333; 
+  color: white;
+  padding: 20px;
+  width: 250px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding-top: 4%;
+
+}
+
+main {
+  flex: 1; 
+}
+
+header {
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.title {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.section-title {
+  color: #3366cc; 
+}
+
+.orange-underline {
+  color: orange; 
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-link {
+  color: orange;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+a{
+  color: orange; 
+  text-decoration: none;
+}
+
+h3{
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+#presentation{
+  background-color: #d3d2fada;
+  width: 90%;
+  margin: 4%;
+  border-radius: 5px;
+  transition: transform 0.3s; 
+}
+#raison{
+  background-color: #d3d2fada;
+  width: 90%;
+  margin: 2%;
+  border-radius: 5px;
+  transition: transform 0.3s; 
+}
+#presentation:hover {
+  background-color: #ffcc00; 
+  transition: background-color 0.3s; 
+}
+
+#raison:hover {
+  background-color: #ffcc00; 
+  transition: background-color 0.3s;
+  transform: scale(1.05);
+}
+
+#presentation:hover,
+#raison:hover {
+  background-color: #ffcc00; 
+  transform: scale(1.05);
+  transform: background-color 0.3s;
+}
+.github-logo {
+  width: 35px; 
+  height: auto; 
+  margin-right: 
+}

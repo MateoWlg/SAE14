@@ -1,0 +1,75 @@
+body {
+    background-image: url('bg-parrainez-un-proche-0x0.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000; 
+  }
+  
+  header {
+    background-color: rgba(70, 130, 180, 0.7); 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s; /* Ajouter une transition pour une animation en douceur */
+  }
+  
+  .content {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .histoire h2,
+  .experience h2,
+  .raison h2 {
+    margin-bottom: 10px;
+    color: #333; 
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Changement de police d'écriture pour le paragraphe */
+    line-height: 1.5; 
+  }
+  
+  .histoire:hover,
+  .experience:hover,
+  .raison:hover {
+    background-color: #00ccff; 
+    transform: scale(1.1); 
+  }
+  
+  .concon {
+    display: flex;
+    flex-flow: row;
+  }
+  .raison,
+  .experience p,
+  .histoire p {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Changement de police d'écriture pour le paragraphe */
+    line-height: 1.5; 
+  }
+  
